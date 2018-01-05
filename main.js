@@ -19,7 +19,7 @@ function printTime() {
 		breakType.innerHTML = 'ОБЕД';
 		var note = 'ОБЕД';
 		//notifyMe(note);
-	} else if (hours == 18 && mins >= 29) {
+	} else if (hours == 18 && mins >= 30) {
 		breakType.innerHTML = 'ПЕРЕКУС';
 		var note = 'ПЕРЕКУС';
 		//notifyMe(note);
