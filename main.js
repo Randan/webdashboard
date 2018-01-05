@@ -18,15 +18,15 @@ function printTime() {
 	if (hours == 14) {
 		breakType.innerHTML = 'ОБЕД';
 		var note = 'ОБЕД';
-		notifyMe(note);
+		//notifyMe(note);
 	} else if (hours == 18 && mins >= 29) {
 		breakType.innerHTML = 'ПЕРЕКУС';
 		var note = 'ПЕРЕКУС';
-		notifyMe(note);
+		//notifyMe(note);
 	} else if (hours >= 19 && mins >= 30) {
 		breakType.innerHTML = 'ПОРА ДОМОЙ';
 		var note = 'ПОРА ДОМОЙ';
-		notifyMe(note);
+		//notifyMe(note);
 	} else {
 		breakType.innerHTML = '';
 	}

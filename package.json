@@ -1,0 +1,16 @@
+{
+  "name": "webdashboard",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
+}
